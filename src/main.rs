@@ -7,7 +7,7 @@ fn main() {
   let mut todos: Vec<String> = vec![String::new(); 0];
 
   loop {
-    println!("\nWhat would you like to do? \n\n (1) Add a todo \n (2) List all todos \n (3) Update a todo \n (4) Delete a todo \n (5) Quit Application \n");
+    println!("\nWhat would you like to do? \n\n (1) Add a todo \n (2) List all todos \n (3) Update a todo \n (4) Delete a todo \n (5) Quit application \n");
     
     let input : String = get_input("Type something: ");
     
