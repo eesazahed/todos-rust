@@ -120,5 +120,5 @@ fn check_index(index: String, todos: &Vec<String>) -> i32 {
 
 fn goodbye () {
   println!("\n{}\n", "Goodbye 👋".yellow());
-  process::exit(0);
+  std::process::exit(0);
 }
